@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.summary       = "Observe battery state changes in your react native application"
   s.homepage      = "https://github.com/robinpowered/react-native-device-battery"
   s.source        = { :git => "https://github.com/robinpowered/react-native-device-battery.git" }
+  s.source_files = 'ios/**/*.{h,m}'
 
   s.dependency 'React'
 end
